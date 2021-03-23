@@ -30,7 +30,7 @@ function mochaTests() {
 
     describe("nameString", function () {
         it("object has three properties", function () {
-            assert.equal(nameString({a:5, z:6, m:8}), "a.z.m");
+            assert.equal(nameString({a:5, z:6, m:8}), "a.m.z");
         });
 	});		
 	

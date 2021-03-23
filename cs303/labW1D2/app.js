@@ -15,5 +15,6 @@ function nameString(obj) {
     for (const key in obj) {
         result += key;
     }
-    return result.split("").join(".");
+    return result.split("").sort().join(".");
 }
+console.log(nameString({a:5, z:6, m:8}));
